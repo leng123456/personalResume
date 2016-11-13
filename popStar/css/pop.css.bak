@@ -1,0 +1,52 @@
+.playground{ width: 350px; height: 537px;
+	margin: 20px auto 0 auto;
+	position: relative;
+	background-image:url(../img/background.jpg);
+}
+.pause{width: 525px; height: 550px;
+	position: absolute;
+	top:0;left:0;
+	background-image:url(../img/pause.png);
+	z-index:100;
+	display:none;
+}
+.playground img{position:absolute;z-index:10;}
+.playground p{
+	font-family: 'SimHei';
+	font-weight: bold;
+	color:#33ccff;
+	position:absolute;
+	margin:0;
+	height:30px;
+	width:100px;
+	text-align:center;
+}
+#pause{
+	border:3px solid #40489D;
+	color:#40489D;
+	position:absolute;
+	right:0;
+	top:0;
+	padding:3px 3px;
+	font-weight:bold;
+}
+#hScore{
+	font-size:25px;
+	left:160px;
+	top:14px;
+}
+#level{
+	font-size:20px;
+	left:73px;
+	top:58px;
+}
+#target{
+	font-size:20px;
+	left:224px;
+	top:58px;
+}
+#score{
+	font-size:25px;
+	left:123px;
+	top:113px;
+}

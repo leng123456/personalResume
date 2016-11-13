@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>消灭星星</title>
+        <link rel="stylesheet" href="css/pop.css"/>
+    </head>
+    <body>
+        <div class="playground">
+			<div id="pause">||</div>
+            <p id="hScore">0</p>
+            <p id="level">1</p>
+            <p id="target">2000</p>
+			<p id="score">0</p>
+        </div>               
+    </body>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/cell.js"></script>
+	<script type="text/javascript" src="js/pop.js"></script>
+</html>

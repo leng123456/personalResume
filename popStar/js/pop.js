@@ -37,8 +37,7 @@ var pop={
 		for(var r=0;r<this.RN;r++){
 			this.select.push(new Array(this.CN));
 		}
-		//this.pg.addEventListener("click",this.chooseDeleteCells.bind(this));
-		this.pg.addEventListener("dblclick",this.deleteCells.bind(this));
+		document.ondblclick=this.deleteCells.bind(this);
 	},
 	randomCell:function(){
 		var i=Math.floor(Math.random()*5);

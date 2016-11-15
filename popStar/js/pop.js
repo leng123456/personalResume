@@ -16,7 +16,6 @@ var pop={
 	GAMEOVER:0,
 	PAUSE:2,
 	start:function(){
-		console.log(this.score);
 		this.state=this.RUNNING;
 		this.pg=document.getElementsByClassName("playground")[0];
 		document.getElementById("success").style.display='none';
@@ -30,9 +29,7 @@ var pop={
 				this.wall[r][c]=this.cell;
 			}
 		}
-		console.log('2:'+this.score);
 		this.paint();
-		console.log(this.score);
 		this.select=[];
 		for(var r=0;r<this.RN;r++){
 			this.select.push(new Array(this.CN));
